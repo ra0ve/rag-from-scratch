@@ -1,3 +1,8 @@
+# Modified to run on Local LLM to use without an OpenAi subscription
+I am using LM-Studio to run this locally on my machine with disabled reasoning parsing because it messes with LangChain's JSON Schema requirements.
+
+I Used Qwen3.6-27b as my local model to power my answers. Feel free to try other models, but this is what I used.
+
 # RAG From Scratch
 
 LLMs are trained on a large but fixed corpus of data, limiting their ability to reason about private or recent information. Fine-tuning is one way to mitigate this, but is often [not well-suited for factual recall](https://www.anyscale.com/blog/fine-tuning-is-for-form-not-facts) and [can be costly](https://www.glean.com/blog/how-to-build-an-ai-assistant-for-the-enterprise).
